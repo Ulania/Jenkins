@@ -16,9 +16,6 @@ The project involves automating these processes, which contributes to improving 
 -> Running the tests:
 ![9](https://github.com/Ulania/Jenkins/assets/96245511/0c39e8b0-9aa7-4301-ab80-7199a76c3d77)
 
--> Deploying (only invoking the "echo I'm in the deployment section" function):
-![10](https://github.com/Ulania/Jenkins/assets/96245511/ddb82e7e-1daa-49aa-a1d3-9eb3948c541e)
-
 2. Adding periodic builds (every hour):
 
 To add periodic builds to the pipeline, you can use the "triggers" section and set the execution time of the pipeline using the "cron" function. The pipeline will be triggered every hour.
@@ -31,7 +28,7 @@ To add periodic builds to the pipeline, you can use the "triggers" section and s
 
 4. Adding a Deployment stage that will display a message indicating that deployment will occur at that point.
 
-![Screenshot 10]
+![10](https://github.com/Ulania/Jenkins/assets/96245511/ddb82e7e-1daa-49aa-a1d3-9eb3948c541e)
 
 
 
